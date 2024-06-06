@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    background-color: #fff;
+}
+
+
+.main-wrapper.wp-content h1{
+    color: purple;
+}
+.header {
+    background-color: #5fcb71;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color:#5FCB71 ;
+    border-color: #5FCB71;
+    color: #fff;
+}
+
+.main-wrapper.wp-content p {
+   text-align: left;
+   display: flex;
+   max-width: 550px;
+   width: 100%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+  
+}
+
+.main-wrapper.wp-content h3{
+  color: Blue; 
+  font-family: sans-serif;   
+
+}
+
+.blog-list .item .post-thumb {
+    max-width: 110px;
+    border-radius: 2px;
+    aspect-ratio: 110 / 110;
+    width: 100%;
+    object-fit: cover;
+    }
+
+img {
+ vertical-align: middle;
+ border-style: none;
+ overflow: clip;
+ 
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.blog-list .item .intro {
+    font-size: 0.85rem;
+}
+
+.blog-list .item .more-link {
+    font-size: 0.80rem;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+
+.blog-nav .nav-link {
+    background: rgb(95, 203, 113);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;   
+}
+
+.rounded {
+border-radius: 0.25rem;
+}
+
+.blog-post-header {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1em;
+}
+
+.blog-post-header .title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.blog-post-header .meta {
+    color: #6c757d;
+}
+
+/* .blog-post-header .meta .date,
+.blog-post-header .meta .time,
+.blog-post-header .meta .comment {
+    margin-right: 1rem;
+} */
+  
