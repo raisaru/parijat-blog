@@ -21,16 +21,16 @@
 
 <body>
     <header class="header text-center">	    
-	    <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html"><?php echo get_bloginfo(); ?></a></h1>
+	    <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html"><?php //echo get_bloginfo(); ?> ParijatInfoTech</a></h1>
 	    <nav class="navbar navbar-expand-lg navbar-dark" >
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 			</button>
 			<div id="navigation" class="collapse navbar-collapse flex-column" >
 				<div class="profile-section pt-3 pt-lg-0">
-				    <img class="profile-image mb-3 rounded-circle mx-auto" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/profile.png" alt="image" >			
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/img8.jpg" alt="image" >			
 					
-					<div class="bio mb-3"><?php echo bloginfo(); ?><br><!--//bio-->
+					<div class="bio mb-3"><?php //echo bloginfo(); ?>ParijatInfoTech<br><!--//bio-->
                       <a href="<?php echo home_url('/about'); ?>">Find out more about me</a>
 					</div>
 					<ul class="social-list list-inline py-3 mx-auto">

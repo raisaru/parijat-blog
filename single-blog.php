@@ -1,4 +1,3 @@
-<?php echo "hello blog"; ?>
 <?php get_header(); ?>
 <div class="main-wrapper">	    
 	<article class="blog-post px-3 py-5 p-md-5">
